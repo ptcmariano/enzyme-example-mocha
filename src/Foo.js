@@ -11,7 +11,9 @@ class Foo extends React.Component {
 
   render() {
     return (
-      <div className="foo" />
+      <div className="foo">
+        <div className="bar" />
+      </div>
     );
   }
 }
